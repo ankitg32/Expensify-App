@@ -1,0 +1,17 @@
+1. Install React:
+
+npm i react react-dom
+2. Install Webpack:
+
+npm i webpack webpack-cli webpack-dev-server
+3. Install the babel loaders for Webpack to use:
+
+npm i babel-loader@7 babel-core babel-preset-env babel-preset-react
+4. Create a .babelrc file:
+
+{
+    "presets" ["babel-preset-env", "babel-preset-react"]
+}
+5. Create the webpack.config.js file.
+
+6. Create your src/public folders and start writing your source code for React.
